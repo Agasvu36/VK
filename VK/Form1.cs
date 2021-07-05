@@ -47,5 +47,10 @@ namespace VK
             foreach (User user in getFollowers)
                 listBox2.Items.Add(Encoding.UTF8.GetString(Encoding.Default.GetBytes(user.FirstName)));
         }
+       
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
