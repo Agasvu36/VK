@@ -14,11 +14,13 @@ namespace VK
     {
         Form1 User;
         Group Group;
+        Projeckt Projeckt;
         public Menu()
         {
             InitializeComponent();
             User = new Form1();
             Group = new Group();
+            Projeckt = new Projeckt();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,6 +31,11 @@ namespace VK
         private void button2_Click(object sender, EventArgs e)
         {
             Group.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Projeckt.ShowDialog();
         }
     }
 }

@@ -45,7 +45,7 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(237, 25);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(279, 199);
+            this.listBox1.Size = new System.Drawing.Size(295, 199);
             this.listBox1.TabIndex = 2;
             // 
             // UserToken
@@ -54,17 +54,15 @@
             this.UserToken.Name = "UserToken";
             this.UserToken.Size = new System.Drawing.Size(113, 20);
             this.UserToken.TabIndex = 3;
-            this.UserToken.Text = "f807f76e4a527c585bb69e07fe561165c33ca33268bb2566fad3d7a0eaa70b936fa44d8e3d21de124" +
-    "38df";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 13);
+            this.label1.Size = new System.Drawing.Size(60, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Токен пользователя";
+            this.label1.Text = "Ваш токен";
             // 
             // button2
             // 
@@ -89,7 +87,7 @@
             this.listBox3.FormattingEnabled = true;
             this.listBox3.Location = new System.Drawing.Point(237, 239);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(279, 199);
+            this.listBox3.Size = new System.Drawing.Size(295, 199);
             this.listBox3.TabIndex = 11;
             // 
             // label3
@@ -122,7 +120,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(528, 450);
+            this.ClientSize = new System.Drawing.Size(544, 450);
             this.Controls.Add(this.listBox3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button2);

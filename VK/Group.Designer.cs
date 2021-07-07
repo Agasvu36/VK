@@ -59,9 +59,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 13);
+            this.label1.Size = new System.Drawing.Size(60, 13);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Токен пользователя";
+            this.label1.Text = "Ваш токен";
             // 
             // textBox1
             // 
@@ -77,8 +77,6 @@
             this.UserToken.Name = "UserToken";
             this.UserToken.Size = new System.Drawing.Size(113, 20);
             this.UserToken.TabIndex = 6;
-            this.UserToken.Text = "7149c995ce86f556e076a53fc0d3ad8069d91ab4100e58c4c9e46303efce059f0422fbaeaf0fa031d" +
-    "246d";
             // 
             // listBox1
             // 
