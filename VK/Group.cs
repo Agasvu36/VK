@@ -20,10 +20,7 @@ namespace VK
             InitializeComponent();
         }
 
-        private async void GetInfoAsync()
-        {
-            await Task.Run(() => GetInfo());
-        }
+       
 
         private void GetInfo()
         {
@@ -75,11 +72,7 @@ namespace VK
 
         private void button1_Click(object sender, EventArgs e)
         {
-            GetInfoAsync();
-            listBox1.Items.Add("Загрузка...");
-            listBox2.Items.Add("Загрузка...");
-            listBox3.Items.Add("Загрузка...");
-            listBox4.Items.Add("Загрузка...");
+            GetInfo();
         }
     }
 }

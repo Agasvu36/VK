@@ -41,9 +41,7 @@ namespace VK
                 if (CountDigit == textBox1.Text.Length)
                 {
 
-                    GetInfoAsync();
-                    listBox1.Items.Add("Загрузка...");
-                    listBox3.Items.Add("Загрузка...");
+                    GetInfo();
 
                 }
                 else
@@ -56,11 +54,6 @@ namespace VK
             {
                 MessageBox.Show("ID введён неправильно","Ошибка");
             }
-        }
-
-        private async void GetInfoAsync()
-        {
-            await Task.Run(() => GetInfo());
         }
 
         private void GetInfo() 
