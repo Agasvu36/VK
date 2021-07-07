@@ -30,11 +30,7 @@ namespace VK
             listBox4.Items.Clear();
             double Check = 0;
             var api_user = new VkApi();
-            var api_group = new VkApi();
-            api_group.Authorize(new ApiAuthParams
-            {
-                AccessToken = "c2e2a8e85982fe45dcb6dcbaa428d0715a425150f21b8c6b3d40da47c73a127b745161d9178113a13d0df"
-            });
+
             api_user.Authorize(new ApiAuthParams
             {
 
